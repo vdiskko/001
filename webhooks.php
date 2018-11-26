@@ -1,6 +1,6 @@
 <?php
 
-$vnews = $_GET['news']
+$vnews = $_GET['news'];
  
 $strAccessToken = "ZNFXW2UqxuulR1s8f4gqZAA43FII0iWyLZ52NA/ujqF3GJbaO4ChdGOjoJEA/u01+V75Yfw2Ev0aHKyTbs+4X73ACv4OWhSOmkK4ZnWmHiMeGtPTJsHNE9N14gYj9aLQurf+dTC4FqcbkZVPUJeTsAdB04t89/1O/w1cDnyilFU=";
  
