@@ -1,4 +1,6 @@
 <?php
+
+$vnews = $_GET['news']
  
 $strAccessToken = "ZNFXW2UqxuulR1s8f4gqZAA43FII0iWyLZ52NA/ujqF3GJbaO4ChdGOjoJEA/u01+V75Yfw2Ev0aHKyTbs+4X73ACv4OWhSOmkK4ZnWmHiMeGtPTJsHNE9N14gYj9aLQurf+dTC4FqcbkZVPUJeTsAdB04t89/1O/w1cDnyilFU=";
  
@@ -11,11 +13,11 @@ $arrHeader[] = "Authorization: Bearer {$strAccessToken}";
 $arrPostData = array();
 $arrPostData['to'] = "U518d9aeb1e290df2bc31fe25aa5e6e93";
 $arrPostData['messages'][0]['type'] = "text";
-$arrPostData['messages'][0]['text'] = "มีงานเข้า 1 งาน ";
+$arrPostData['messages'][0]['text'] = $vnews ;
 
-$arrPostData['to'] = "U518d9aeb1e290df2bc31fe25aa5e6e93";
-$arrPostData['messages'][1]['type'] = "text";
-$arrPostData['messages'][1]['text'] = "มีงานเข้า 2 งาน ";
+//$arrPostData['to'] = "U518d9aeb1e290df2bc31fe25aa5e6e93";
+//$arrPostData['messages'][1]['type'] = "text";
+//$arrPostData['messages'][1]['text'] = "มีงานเข้า 2 งาน ";
  
  
 $ch = curl_init();
