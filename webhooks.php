@@ -13,7 +13,6 @@ $arrPostData['to'] = "U518d9aeb1e290df2bc31fe25aa5e6e93";
 $arrPostData['messages'][0]['type'] = "text";
 $arrPostData['messages'][0]['text'] = "มีงานเข้า 1 งาน ";
 
-$arrPostData = array();
 $arrPostData['to'] = "U518d9aeb1e290df2bc31fe25aa5e6e93";
 $arrPostData['messages'][1]['type'] = "text";
 $arrPostData['messages'][1]['text'] = "มีงานเข้า 2 งาน ";
