@@ -13,7 +13,7 @@ $arrHeader[] = "Authorization: Bearer {$strAccessToken}";
 $arrPostData = array();
 $arrPostData['to'] = "U518d9aeb1e290df2bc31fe25aa5e6e93";
 $arrPostData['messages'][0]['type'] = "text";
-$arrPostData['messages'][0]['text'] = '$vnews' ;
+$arrPostData['messages'][0]['text'] = $_GET['news'];
 
 //$arrPostData['to'] = "U518d9aeb1e290df2bc31fe25aa5e6e93";
 //$arrPostData['messages'][1]['type'] = "text";
